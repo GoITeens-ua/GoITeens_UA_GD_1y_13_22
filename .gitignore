@@ -1,0 +1,7 @@
+App.config
+lessons.csproj
+obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs
+obj/Debug/DesignTimeResolveAssemblyReferences.cache
+obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+obj/Debug/lessons.csproj.AssemblyReference.cache
+Properties/AssemblyInfo.cs
