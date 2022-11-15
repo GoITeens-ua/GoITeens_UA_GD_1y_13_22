@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Remoting.Services;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -57,8 +58,6 @@ namespace ifStatement
                 Console.WriteLine("Parne");
             }
 
-            Console.WriteLine("Enter phrase");
-
             Random random = new Random();
 
             int randomNumber = random.Next(0, 2);
@@ -70,8 +69,6 @@ namespace ifStatement
                 Console.WriteLine("reshka");
             }
 
-            randomNumber = random.Next(0, 2);
-
             Console.WriteLine("Orel abo reshka?");
 
             if (randomNumber == 0)
@@ -82,6 +79,8 @@ namespace ifStatement
             {
                 Console.WriteLine("orel");
             }
+
+            Console.WriteLine("enter 2 numbers");
 
             int number1 = Convert.ToInt32(Console.ReadLine());
             int number2 = Convert.ToInt32(Console.ReadLine());
