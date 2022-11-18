@@ -11,11 +11,17 @@ namespace ifStatement
     {
         static void Main(string[] args)
         {
+            // zavdanny 11
+
+            int num1 = 10;
+            int num2 = 7;
+
+            Console.WriteLine(num1 % 2 == 0 && num2 % 2 == 0);
+
             const string slavaUkraine = "Slava Ukraine";
             const string geroyamSlava = "Geroyam slava!";
             const string slavaNazii = "Slava nazii";
             const string smertVorogam = "Smert vorogam!";
-
 
             Console.WriteLine("Enter number");
 
